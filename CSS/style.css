@@ -1,1 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.features div {
+    text-align: center;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.player-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.player-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
