@@ -86,4 +86,29 @@ footer {
     color: #555;
 }
 
+#live-scores {
+    margin: 20px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#scores-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.match-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 
