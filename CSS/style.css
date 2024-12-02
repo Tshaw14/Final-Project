@@ -46,14 +46,3 @@ footer {
     color: #fff;
     padding: 10px 0;
 }
-
-.player-grid {
-    display: flex;
-    gap: 20px;
-}
-
-.player-card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-}
