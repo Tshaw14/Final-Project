@@ -1,1 +1,3 @@
-
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Soccer Hub is ready!");
+});
